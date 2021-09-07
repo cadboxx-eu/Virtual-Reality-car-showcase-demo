@@ -34,7 +34,7 @@
             <!--orbit-controls="target: #model;enableKeys:false;invertZoom:true;" wasd-controls='enabled:false;'
             -->
             <a-entity id="camera" camera position="-0.138 4.058 9.838"
-            orbit-controls="target: #model;enableKeys:false;invertZoom:true;" wasd-controls='enabled:false;' movement-controls="controls: checkpoint" checkpoint-controls="mode: animate"
+            orbit-controls="target: #model;enableKeys:true;invertZoom:true;" wasd-controls='enabled:true;' movement-controls="controls: checkpoint" checkpoint-controls="mode: animate"
             >
                 <a-entity id='cursor' position="0 0 -1" geometry="primitive: ring; radiusOuter: 0.02; radiusInner: 0.01" material="color: #ffffff; shader: flat; opacity: 0.5;" cursor="type:gaze;fuse:true;fuseTimeout:450;" raycaster="objects: .clickable" scale="">
                 <a-animation begin="click" easing="ease-in" attribute="scale" fill="forwards" from="0.2 0.2 0.2" to="1 1 1" dur="150"></a-animation>
